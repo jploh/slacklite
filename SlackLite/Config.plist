@@ -1,14 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
-<!--
-   Config.plist
-   SlackLite
-
-   Created by JP Loh on 08/05/2017.
-   Copyright (c) 2017 JP Loh. All rights reserved.
--->
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
-    <dict>
-    
-    </dict>
+<dict>
+	<key>Slack</key>
+	<dict>
+		<key>ClientID</key>
+		<string>PUTYOURCLIENTIDHERE</string>
+		<key>Secret</key>
+		<string>andyoursecret</string>
+	</dict>
+</dict>
 </plist>
