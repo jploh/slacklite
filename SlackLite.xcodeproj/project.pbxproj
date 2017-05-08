@@ -3,23 +3,35 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 46;
+	objectVersion = 48;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B36C92CF1EBE408B00B0C75F /* Pods_SlackLite.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E604879DEC676D7235BB4825 /* Pods_SlackLite.framework */; };
+		B3C976371EC082B700B1E843 /* Config.plist in Resources */ = {isa = PBXBuildFile; fileRef = B3C976361EC082B700B1E843 /* Config.plist */; };
 		B3D5712A1EB737A600BB3032 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3D571291EB737A600BB3032 /* AppDelegate.swift */; };
 		B3D5712C1EB737A600BB3032 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3D5712B1EB737A600BB3032 /* ViewController.swift */; };
 		B3D5712E1EB737A600BB3032 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B3D5712D1EB737A600BB3032 /* Assets.xcassets */; };
 		B3D571311EB737A600BB3032 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B3D5712F1EB737A600BB3032 /* Main.storyboard */; };
+		B3D571391EB739D700BB3032 /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = B3D571381EB739D700BB3032 /* Podfile */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		B3D571261EB737A600BB3032 /* SlackMac.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SlackMac.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		23F19DD2658C338CBAB62867 /* Pods-SlackLite.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SlackLite.release.xcconfig"; path = "Pods/Target Support Files/Pods-SlackLite/Pods-SlackLite.release.xcconfig"; sourceTree = "<group>"; };
+		2B379B82434EE799D0F73BA9 /* Pods-SlackMac.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SlackMac.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SlackMac/Pods-SlackMac.debug.xcconfig"; sourceTree = "<group>"; };
+		384E5993B2A8ECEA1A0BFA92 /* Pods-SlackLite.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SlackLite.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SlackLite/Pods-SlackLite.debug.xcconfig"; sourceTree = "<group>"; };
+		B36C92CD1EBE406900B0C75F /* Alamofire.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Alamofire.framework; path = "../../../../../Users/jploh/Library/Developer/Xcode/DerivedData/SlackLite-hctsqqysnxcneacmcapvfjaiydrb/Build/Products/Debug/Alamofire/Alamofire.framework"; sourceTree = "<group>"; };
+		B3C976361EC082B700B1E843 /* Config.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Config.plist; sourceTree = "<group>"; };
+		B3D571261EB737A600BB3032 /* SlackLite.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SlackLite.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B3D571291EB737A600BB3032 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B3D5712B1EB737A600BB3032 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		B3D5712D1EB737A600BB3032 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B3D571301EB737A600BB3032 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		B3D571321EB737A600BB3032 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B3D571381EB739D700BB3032 /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		C94774E9458CB6BF5B27C447 /* Pods_SlackMac.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SlackMac.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E604879DEC676D7235BB4825 /* Pods_SlackLite.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SlackLite.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E98602A8388CCDB90F441CF1 /* Pods-SlackMac.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SlackMac.release.xcconfig"; path = "Pods/Target Support Files/Pods-SlackMac/Pods-SlackMac.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -27,29 +39,46 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B36C92CF1EBE408B00B0C75F /* Pods_SlackLite.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3185CE8A626DE93262DD2F29 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2B379B82434EE799D0F73BA9 /* Pods-SlackMac.debug.xcconfig */,
+				E98602A8388CCDB90F441CF1 /* Pods-SlackMac.release.xcconfig */,
+				384E5993B2A8ECEA1A0BFA92 /* Pods-SlackLite.debug.xcconfig */,
+				23F19DD2658C338CBAB62867 /* Pods-SlackLite.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		B3D5711D1EB737A600BB3032 = {
 			isa = PBXGroup;
 			children = (
-				B3D571281EB737A600BB3032 /* SlackMac */,
+				B3D571381EB739D700BB3032 /* Podfile */,
+				B3D571281EB737A600BB3032 /* SlackLite */,
 				B3D571271EB737A600BB3032 /* Products */,
+				3185CE8A626DE93262DD2F29 /* Pods */,
+				B868C9F24EAEFBE7E55BDB14 /* Frameworks */,
 			);
+			indentWidth = 2;
 			sourceTree = "<group>";
+			tabWidth = 2;
 		};
 		B3D571271EB737A600BB3032 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				B3D571261EB737A600BB3032 /* SlackMac.app */,
+				B3D571261EB737A600BB3032 /* SlackLite.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		B3D571281EB737A600BB3032 /* SlackMac */ = {
+		B3D571281EB737A600BB3032 /* SlackLite */ = {
 			isa = PBXGroup;
 			children = (
 				B3D571291EB737A600BB3032 /* AppDelegate.swift */,
@@ -57,28 +86,42 @@
 				B3D5712D1EB737A600BB3032 /* Assets.xcassets */,
 				B3D5712F1EB737A600BB3032 /* Main.storyboard */,
 				B3D571321EB737A600BB3032 /* Info.plist */,
+				B3C976361EC082B700B1E843 /* Config.plist */,
 			);
-			path = SlackMac;
+			path = SlackLite;
+			sourceTree = "<group>";
+		};
+		B868C9F24EAEFBE7E55BDB14 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B36C92CD1EBE406900B0C75F /* Alamofire.framework */,
+				C94774E9458CB6BF5B27C447 /* Pods_SlackMac.framework */,
+				E604879DEC676D7235BB4825 /* Pods_SlackLite.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		B3D571251EB737A600BB3032 /* SlackMac */ = {
+		B3D571251EB737A600BB3032 /* SlackLite */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = B3D571351EB737A600BB3032 /* Build configuration list for PBXNativeTarget "SlackMac" */;
+			buildConfigurationList = B3D571351EB737A600BB3032 /* Build configuration list for PBXNativeTarget "SlackLite" */;
 			buildPhases = (
+				98095C3578AD769D9BFE93B9 /* [CP] Check Pods Manifest.lock */,
 				B3D571221EB737A600BB3032 /* Sources */,
 				B3D571231EB737A600BB3032 /* Frameworks */,
 				B3D571241EB737A600BB3032 /* Resources */,
+				1C91021F50F5975F23FDC6B1 /* [CP] Embed Pods Frameworks */,
+				C499B9C5AFB2FFC878FB29DE /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = SlackMac;
+			name = SlackLite;
 			productName = SlackMac;
-			productReference = B3D571261EB737A600BB3032 /* SlackMac.app */;
+			productReference = B3D571261EB737A600BB3032 /* SlackLite.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -97,8 +140,8 @@
 					};
 				};
 			};
-			buildConfigurationList = B3D571211EB737A600BB3032 /* Build configuration list for PBXProject "SlackMac" */;
-			compatibilityVersion = "Xcode 3.2";
+			buildConfigurationList = B3D571211EB737A600BB3032 /* Build configuration list for PBXProject "SlackLite" */;
+			compatibilityVersion = "Xcode 8.0";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -110,7 +153,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				B3D571251EB737A600BB3032 /* SlackMac */,
+				B3D571251EB737A600BB3032 /* SlackLite */,
 			);
 		};
 /* End PBXProject section */
@@ -120,12 +163,62 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B3C976371EC082B700B1E843 /* Config.plist in Resources */,
+				B3D571391EB739D700BB3032 /* Podfile in Resources */,
 				B3D5712E1EB737A600BB3032 /* Assets.xcassets in Resources */,
 				B3D571311EB737A600BB3032 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1C91021F50F5975F23FDC6B1 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SlackLite/Pods-SlackLite-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		98095C3578AD769D9BFE93B9 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		C499B9C5AFB2FFC878FB29DE /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SlackLite/Pods-SlackLite-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		B3D571221EB737A600BB3032 /* Sources */ = {
@@ -245,12 +338,14 @@
 		};
 		B3D571361EB737A600BB3032 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 384E5993B2A8ECEA1A0BFA92 /* Pods-SlackLite.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				COMBINE_HIDPI_IMAGES = YES;
-				INFOPLIST_FILE = SlackMac/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/SlackLite/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.jploh.dev.SlackMac;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jploh.dev.SlackLite;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
@@ -258,12 +353,14 @@
 		};
 		B3D571371EB737A600BB3032 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 23F19DD2658C338CBAB62867 /* Pods-SlackLite.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				COMBINE_HIDPI_IMAGES = YES;
-				INFOPLIST_FILE = SlackMac/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/SlackLite/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.jploh.dev.SlackMac;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jploh.dev.SlackLite;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
@@ -272,7 +369,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		B3D571211EB737A600BB3032 /* Build configuration list for PBXProject "SlackMac" */ = {
+		B3D571211EB737A600BB3032 /* Build configuration list for PBXProject "SlackLite" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				B3D571331EB737A600BB3032 /* Debug */,
@@ -281,13 +378,14 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		B3D571351EB737A600BB3032 /* Build configuration list for PBXNativeTarget "SlackMac" */ = {
+		B3D571351EB737A600BB3032 /* Build configuration list for PBXNativeTarget "SlackLite" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				B3D571361EB737A600BB3032 /* Debug */,
 				B3D571371EB737A600BB3032 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

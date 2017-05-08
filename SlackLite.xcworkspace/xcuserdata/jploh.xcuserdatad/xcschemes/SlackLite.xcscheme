@@ -14,10 +14,24 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
+               BlueprintIdentifier = "E30F40090D3523EB55C194483185DD6B"
+               BuildableName = "Pods_SlackLite.framework"
+               BlueprintName = "Pods-SlackLite"
+               ReferencedContainer = "container:Pods/Pods.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
                BlueprintIdentifier = "B3D571251EB737A600BB3032"
-               BuildableName = "SlackMac.app"
-               BlueprintName = "SlackMac"
-               ReferencedContainer = "container:SlackMac.xcodeproj">
+               BuildableName = "SlackLite.app"
+               BlueprintName = "SlackLite"
+               ReferencedContainer = "container:SlackLite.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -33,9 +47,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "B3D571251EB737A600BB3032"
-            BuildableName = "SlackMac.app"
-            BlueprintName = "SlackMac"
-            ReferencedContainer = "container:SlackMac.xcodeproj">
+            BuildableName = "SlackLite.app"
+            BlueprintName = "SlackLite"
+            ReferencedContainer = "container:SlackLite.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -56,16 +70,16 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "B3D571251EB737A600BB3032"
-            BuildableName = "SlackMac.app"
-            BlueprintName = "SlackMac"
-            ReferencedContainer = "container:SlackMac.xcodeproj">
+            BuildableName = "SlackLite.app"
+            BlueprintName = "SlackLite"
+            ReferencedContainer = "container:SlackLite.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
       </AdditionalOptions>
    </LaunchAction>
    <ProfileAction
-      buildConfiguration = "Release"
+      buildConfiguration = "Debug"
       shouldUseLaunchSchemeArgsEnv = "YES"
       savedToolIdentifier = ""
       useCustomWorkingDirectory = "NO"
@@ -75,9 +89,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "B3D571251EB737A600BB3032"
-            BuildableName = "SlackMac.app"
-            BlueprintName = "SlackMac"
-            ReferencedContainer = "container:SlackMac.xcodeproj">
+            BuildableName = "SlackLite.app"
+            BlueprintName = "SlackLite"
+            ReferencedContainer = "container:SlackLite.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>
